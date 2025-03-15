@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sherbimets",
+  "info": {
+    "singularName": "sherbimet",
+    "pluralName": "sherbimets",
+    "displayName": "Sherbimet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Emri": {
+      "type": "string"
+    },
+    "Pershkrimi": {
+      "type": "blocks"
+    },
+    "Cmimi": {
+      "type": "integer"
+    },
+    "Foto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Data": {
+      "type": "date"
+    }
+  }
+}
